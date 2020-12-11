@@ -1,18 +1,15 @@
 {
-  "presets": [
-    [
-      "@babel/preset-react",
-      {
-        "runtime": "automatic"
-      }
-    ]
-  ],
-  "plugins": [
-    [
-      "@babel/plugin-transform-react-jsx",
-      {
-        "runtime": "automatic"
-      }
-    ]
-  ]
+  "presets": ["next"],
+  "plugins": ["styled-jsx/babel"],
+  "env": {
+    "production": {
+      "plugins": ["styled-jsx/babel"]
+    },
+    "development": {
+      "plugins": ["styled-jsx/babel"]
+    },
+    "test": {
+      "plugins": ["styled-jsx/babel-test"]
+    }
+  }
 }

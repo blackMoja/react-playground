@@ -1,0 +1,9 @@
+.test {
+  @apply bg-black;
+}
+
+@screen md {
+  .test {
+    @apply bg-red-500;
+  }
+}
