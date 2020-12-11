@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import style from './assets/styles/tailwind.scss'
-import App from './App'
+import './assets/styles/index.scss'
+import App from './pages/App'
 import reportWebVitals from './reportWebVitals'
-console.log(style)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <style jsx>{style}</style>
   </React.StrictMode>,
   document.getElementById('root')
 )
