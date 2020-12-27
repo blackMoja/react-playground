@@ -30,5 +30,6 @@
   "html.format.wrapAttributes": "force-expand-multiline",
   "tailwindCSS.includeLanguages": {
     "plaintext": "html, scss"
-  }
+  },
+  "editor.semanticHighlighting.enabled": true
 }
